@@ -6,11 +6,6 @@
 package main
 
 import (
-	"github.com/go-kratos/beer-shop/app/cart/service/internal/biz"
-	"github.com/go-kratos/beer-shop/app/cart/service/internal/conf"
-	"github.com/go-kratos/beer-shop/app/cart/service/internal/data"
-	"github.com/go-kratos/beer-shop/app/cart/service/internal/server"
-	"github.com/go-kratos/beer-shop/app/cart/service/internal/service"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
 	"go.opentelemetry.io/otel/sdk/trace"

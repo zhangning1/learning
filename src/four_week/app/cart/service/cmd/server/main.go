@@ -1,17 +1,15 @@
 package main
 
 import (
+	"apps/four_week/app/cart/service/internal/conf"
 	"flag"
+	"github.com/go-kratos/kratos/v2"
 	"os"
-
-	"github.com/go-kratos/kratos/v1"
 
 	"github.com/go-kratos/kratos/v2/registry"
 	"go.opentelemetry.io/otel/exporters/jaeger"
 	"go.opentelemetry.io/otel/sdk/resource"
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
-
-	"github.com/go-kratos/beer-shop/app/cart/service/internal/conf"
 
 	"github.com/go-kratos/kratos/v2/config"
 	"github.com/go-kratos/kratos/v2/config/file"
